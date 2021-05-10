@@ -2,4 +2,34 @@
   background-color: $primary;
   color: white;
   padding: 50px 0;
+
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+      margin-right: 30px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cta {
+    background-color: $primary;
+    color: white;
+    padding: 50px 0;
+
+    &-content {
+      display: block;
+
+      h3 {
+        margin-right: 0px;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
