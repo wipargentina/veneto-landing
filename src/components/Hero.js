@@ -1,18 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import BtnScroll from './BtnScroll';
 
 export default function Hero() {
   return (
-    <div>
-      <h1>Hero</h1>
-      <div className='my-5'>
-        <Link className='btn btn-primary' to='/gracias'>
-          Button Primary
-        </Link>{' '}
-        <Link className='btn btn-secondary' to='/404'>
-          Button Secondary
-        </Link>
+    <section className='hero'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-6'>texto</div>
+          <div className='col-md-6'>foto</div>
+        </div>
+        <BtnScroll textBtn='Consultanos' classBtn='btn-primary' />
       </div>
-    </div>
+    </section>
   );
 }

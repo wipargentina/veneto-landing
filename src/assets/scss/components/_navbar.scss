@@ -1,10 +1,19 @@
 .navbar {
-  padding: 16px 0;
+  padding: 20px 0;
   .navbar-brand {
-    // font-weight: 500;
-    // font-size: 1.4rem;
     img {
       height: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: 16px 0;
+    .navbar-brand {
+      img {
+        height: 40px;
+      }
     }
   }
 }
