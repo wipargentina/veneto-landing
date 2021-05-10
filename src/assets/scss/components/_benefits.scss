@@ -1,0 +1,38 @@
+.benefits {
+  padding: 100px 0;
+
+  .card {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    &-image {
+      height: 4em;
+      width: 4em;
+      margin: auto;
+      color: $primary;
+    }
+    &-title {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.6rem;
+      letter-spacing: 0.06rem;
+    }
+    &-text {
+      //color: red;
+      font-size: 1.04rem;
+      span {
+        font-weight: 500;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .benefits {
+    padding: 100px 0;
+    .card {
+      margin-bottom: 50px;
+    }
+  }
+}

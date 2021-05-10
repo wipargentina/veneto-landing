@@ -2,8 +2,10 @@ import React from 'react';
 
 export default function VenetoVIII() {
   return (
-    <div>
-      <h1>Veneto VIII</h1>
-    </div>
+    <section className='products'>
+      <div className='container'>
+        <h1>Veneto VII Fontana Di Veneto</h1>
+      </div>
+    </section>
   );
 }

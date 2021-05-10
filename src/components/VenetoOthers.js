@@ -2,8 +2,10 @@ import React from 'react';
 
 export default function VenetoOthers() {
   return (
-    <div>
-      <h1>Veneto Otros</h1>
-    </div>
+    <section className='products'>
+      <div className='container'>
+        <h1>Otros emprendimientos en venta</h1>
+      </div>
+    </section>
   );
 }
