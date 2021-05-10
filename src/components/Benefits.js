@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  FiPercent,
-  FiSunrise,
-  FiTrendingUp,
-  FiDollarSign
-} from 'react-icons/fi';
+import { FiPercent, FiSunrise, FiTrendingUp } from 'react-icons/fi';
 
 export default function Benefits() {
   return (
