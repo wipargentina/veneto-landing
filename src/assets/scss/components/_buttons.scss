@@ -1,7 +1,11 @@
 .btn-scroll {
-  padding: 8px 24px;
+  padding: 8px 36px;
   font-weight: 500;
-  letter-spacing: 0.08rem;
+  border: 1px solid white;
+  letter-spacing: 0.04rem;
   text-transform: uppercase;
-  font-size: 1.06rem;
+  font-size: 1.2rem;
+  &:hover {
+    border: 1px solid rgba(white, 0.6);
+  }
 }
