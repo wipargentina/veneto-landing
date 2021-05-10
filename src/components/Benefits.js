@@ -6,6 +6,15 @@ export default function Benefits() {
     <section className='benefits'>
       <div className='container'>
         <div className='row justify-content-center'>
+          <div className='col-md-12'>
+            <h1>Tu inversión inmobiliaria, con mayor rentabilidad</h1>
+            <h2>
+              Te proponemos diferentes productos, respaldados por los valores
+              que ya conoces de nuestra empresa.
+            </h2>
+          </div>
+        </div>
+        <div className='row justify-content-center'>
           <div className='col-md-4'>
             <div className='card'>
               <FiPercent className='card-image' />
