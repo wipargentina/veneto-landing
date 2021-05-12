@@ -1,0 +1,66 @@
+{
+  "amenities": [
+    {
+      "id": 1,
+      "title": "title amenities"
+    },
+    {
+      "id": 2,
+      "title": "title amenities"
+    },
+    {
+      "id": 3,
+      "title": "title amenities"
+    },
+    {
+      "id": 4,
+      "title": "title amenities"
+    },
+    {
+      "id": 5,
+      "title": "title amenities"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832380/Veneto/veneto-village-gallery-1_izjbhh.webp"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832380/Veneto/veneto-village-gallery-2_gi7nhh.webp"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832380/Veneto/veneto-village-gallery-3_clcq2k.webp"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832380/Veneto/veneto-village-gallery-4_lzcb55.webp"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832380/Veneto/veneto-village-gallery-5_ofhtqj.webp"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832379/Veneto/veneto-village-gallery-6_nfxyjt.webp"
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832699/Veneto/veneto-village-gallery-7_vbr4xj.webp"
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832381/Veneto/veneto-village-gallery-8_kecqtm.webp"
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832381/Veneto/venetp-village-gallery-9_irepf3.webp"
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832381/Veneto/veneto-village-gallery-10_t4cxs6.webp"
+    }
+  ]
+}

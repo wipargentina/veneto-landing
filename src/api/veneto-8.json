@@ -1,0 +1,46 @@
+{
+  "amenities": [
+    {
+      "id": 1,
+      "title": "title amenities"
+    },
+    {
+      "id": 2,
+      "title": "title amenities"
+    },
+    {
+      "id": 3,
+      "title": "title amenities"
+    },
+    {
+      "id": 4,
+      "title": "title amenities"
+    },
+    {
+      "id": 5,
+      "title": "title amenities"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-1_aqi2tq.jpg"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-2_rokx8l.jpg"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-3_xrjmjh.jpg"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-4_dvlozu.jpg"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-5_nuaisz.jpg"
+    }
+  ]
+}

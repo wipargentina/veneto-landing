@@ -5,7 +5,10 @@ import AmenitiesImage1 from '../assets/static/veneto-8-amenities-1.webp';
 import AmenitiesImage2 from '../assets/static/veneto-8-amenities-2.webp';
 import AmenitiesImage3 from '../assets/static/veneto-8-amenities-3.webp';
 import { FiDollarSign, FiClock, FiStar } from 'react-icons/fi';
-import AmenitiesList from './VenetoVIII/AmenitiesList';
+import ProductsAmenities from './VenetoVIII/ProductsAmenties';
+import ProductGallery from './ProductGallery';
+
+import data from '../api/veneto-8.json';
 
 export default function VenetoVIII() {
   return (
@@ -92,12 +95,12 @@ export default function VenetoVIII() {
                 Arte, Tecnología, Diseño y Calidad confluyen para generar un
                 producto único.
               </h3>
-              <AmenitiesList />
+              <ProductsAmenities amenities={data.amenities} />
             </div>
           </div>
         </div>
 
-        <div className='products-gallery'>imagenes</div>
+        <ProductGallery gallery={data.gallery} title='veneto8' />
 
         <div className='products-value'>propuesta de valor o comercial</div>
       </div>

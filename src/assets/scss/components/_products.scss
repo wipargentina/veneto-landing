@@ -125,7 +125,7 @@ $product-hero-heigth-mobile: 385px;
       margin-top: 30px;
       list-style: none;
       padding: 0;
-      columns: 2;
+      columns: 3;
       gap: 20px;
       li {
         display: grid;
@@ -145,9 +145,14 @@ $product-hero-heigth-mobile: 385px;
     }
   }
   .products-gallery {
-    background-color: $gray-200;
-    padding: 20px 0;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    .carousel-inner {
+      img {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+      }
+    }
   }
   .products-value {
     background-color: $gray-200;

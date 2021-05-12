@@ -1,5 +1,14 @@
 import React from 'react';
 import HeroImage from '../assets/static/hero-bg.webp';
+import AmenitiesImage1 from '../assets/static/veneto-village-amenities-1.jpg';
+import AmenitiesImage2 from '../assets/static/veneto-village-amenities-2.jpg';
+import AmenitiesImage3 from '../assets/static/veneto-village-amenities-3.jpg';
+import { FiDollarSign, FiClock, FiStar } from 'react-icons/fi';
+import ProductGallery from './ProductGallery';
+import ProductsAmenities from './VenetoVIII/ProductsAmenties';
+
+import data from '../api/veneto-village.json';
+console.log(data);
 
 export default function VenetoVillage() {
   return (
@@ -29,17 +38,72 @@ export default function VenetoVillage() {
           Departamentos de 1 y 2 habitaciones y departamentos VIP. Área
           deportiva, bajada al lago y guardería náutica.
         </p>
-      </div>
-      <div className='container'>
-        <div className='products-inverstment'>
-          <div className='row justify-content-center'>
-            <div className='col-md-3'>1</div>
-            <div className='col-md-3'>2</div>
-            <div className='col-md-3'>3</div>
+        <div className='products-grid'>
+          <div className='grid-item item-1'>
+            <img src={AmenitiesImage1} alt='imagen' loading='lazy' />
+          </div>
+          <div className='grid-item item-2'>
+            <img src={AmenitiesImage2} alt='imagen' loading='lazy' />
+          </div>
+          <div className='grid-item item-3'>
+            <img src={AmenitiesImage3} alt='imagen' loading='lazy' />
           </div>
         </div>
-        <div className='products-amenities'>amenities</div>
-        <div className='products-gallery'>imagenes</div>
+      </div>
+
+      <div className='products-investment'>
+        <div className='container'>
+          <div className='row justify-content-center'>
+            <div className='col-md-3'>
+              <div className='card'>
+                <FiDollarSign className='card-image' />
+                <div className='card-body'>
+                  <div className='card-text'>desarrollo</div>
+                  <div className='card-title'>en Pozo</div>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-3'>
+              <div className='card'>
+                <FiClock className='card-image' />
+                <div className='card-body'>
+                  <div className='card-text'>duración</div>
+                  <div className='card-title'>36 meses</div>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-3'>
+              <div className='card'>
+                <FiStar className='card-image' />
+                <div className='card-body'>
+                  <div className='card-text'>inversión</div>
+                  <div className='card-title'>estrella</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='products-amenities'>
+          <div className='row justify-content-center'>
+            <div className='col-md-9'>
+              <h3>
+                Arte, Tecnología, Diseño y Calidad confluyen para generar un
+                producto único.
+              </h3>
+              {data.amenities && (
+                <ProductsAmenities amenities={data.amenities} />
+              )}
+            </div>
+          </div>
+        </div>
+
+        {data.gallery && (
+          <ProductGallery gallery={data.gallery} title='veneto-village' />
+        )}
+
         <div className='products-value'>propuesta de valor o comercial</div>
       </div>
     </section>
