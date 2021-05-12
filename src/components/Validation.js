@@ -12,8 +12,8 @@ export default function Validation() {
             </h2>
             <p className='lead'>
               Contamos con un equipo interdisciplinario de profesionales y
-              empresas de primera línea en el país, respaldados en los valores
-              que ya conoces de nuestra empresa:
+              empresas de primera línea en el país, respaldados en los valores y
+              la trayectoria de nuestra empresa:
             </p>
             <ul>
               <li>La calidad de nuestros proyectos.</li>
