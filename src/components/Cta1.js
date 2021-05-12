@@ -6,7 +6,12 @@ export default function Cta1() {
     <section className='cta'>
       <div className='container'>
         <div className='cta-content'>
-          <h3>Oportunidad única por Pre Lanzamiento</h3>
+          <div className='cta-text'>
+            <h4>
+              <span>Veneto VIII</span> Oportunidad única por Pre Lanzamiento
+            </h4>
+            <h3>Descuento de hasta un 30% en unidades seleccionadas</h3>
+          </div>
           <BtnScroll textBtn='Consultá Ahora' classBtn='btn-cta' />
         </div>
       </div>

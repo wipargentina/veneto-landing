@@ -6,7 +6,9 @@ export default function Cta3() {
     <section className='cta'>
       <div className='container'>
         <div className='cta-content'>
-          <h3>Solicitá el catálogo completo de departamentos</h3>
+          <div className='cta-text'>
+            <h3>Solicitá el catálogo completo de departamentos</h3>
+          </div>
           <BtnScroll textBtn='Consultá Ahora' classBtn='btn-cta' />
         </div>
       </div>
