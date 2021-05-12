@@ -2,23 +2,47 @@
   "amenities": [
     {
       "id": 1,
-      "title": "title amenities"
+      "title": "Elegante Hall de Acceso."
     },
     {
       "id": 2,
-      "title": "title amenities"
+      "title": "Ascensores de alta velocidad."
     },
     {
       "id": 3,
-      "title": "title amenities"
+      "title": "Piscina Panorámica."
     },
     {
       "id": 4,
-      "title": "title amenities"
+      "title": "Gimnasio y Área para meditación."
     },
     {
       "id": 5,
-      "title": "title amenities"
+      "title": "Terraza Verde con Livings Materos."
+    },
+    {
+      "id": 6,
+      "title": "Salón de usos múltiples totalmente equipado."
+    },
+    {
+      "id": 7,
+      "title": "Asadores en terraza y balcones propios."
+    },
+    {
+      "id": 8,
+      "title": "Paseo comercial con 14 locales, patios verdes y un café premium."
+    },
+    {
+      "id": 9,
+      "title": "Hall de distribución central vanguardista."
+    },
+    {
+      "id": 10,
+      "title": "Zona Wifi y Espacio Coworking."
+    },
+    {
+      "id": 11,
+      "title": "Sala de Juegos + Kid Area."
     }
   ],
   "gallery": [

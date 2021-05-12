@@ -2,23 +2,47 @@
   "amenities": [
     {
       "id": 1,
-      "title": "title amenities"
+      "title": "Increíbles lobys con obras de arte y mobiliarios de primer nivel."
     },
     {
       "id": 2,
-      "title": "title amenities"
+      "title": "Guardería náutica."
     },
     {
       "id": 3,
-      "title": "title amenities"
+      "title": "Área deportiva."
     },
     {
       "id": 4,
-      "title": "title amenities"
+      "title": "Piscinas exteriores con vista a las montañas."
     },
     {
       "id": 5,
-      "title": "title amenities"
+      "title": "Minimercado con productos regionales."
+    },
+    {
+      "id": 6,
+      "title": "Club House - Spa."
+    },
+    {
+      "id": 7,
+      "title": "Sala de masajes, sauna y jacuzzi."
+    },
+    {
+      "id": 8,
+      "title": "Piscina interior climatizada."
+    },
+    {
+      "id": 9,
+      "title": "Restaurante."
+    },
+    {
+      "id": 0,
+      "title": "Salón de eventos."
+    },
+    {
+      "id": 11,
+      "title": "Sala de conferencias."
     }
   ],
   "gallery": [

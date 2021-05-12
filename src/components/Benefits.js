@@ -9,8 +9,8 @@ export default function Benefits() {
           <div className='col-md-12'>
             <h1>Tu inversión inmobiliaria, con mayor rentabilidad</h1>
             <h2>
-              Te proponemos diferentes productos, respaldados por los valores
-              que ya conoces de nuestra empresa.
+              Te proponemos diferentes productos, respaldados por los valores y
+              trayectoria de nuestra empresa.
             </h2>
           </div>
         </div>

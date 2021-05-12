@@ -102,7 +102,7 @@ export default function VenetoVIII() {
 
         <ProductGallery gallery={data.gallery} title='veneto8' />
 
-        <div className='products-value'>propuesta de valor o comercial</div>
+        {/* <div className='products-value'>propuesta de valor o comercial</div> */}
       </div>
     </section>
   );

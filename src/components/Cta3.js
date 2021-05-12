@@ -7,7 +7,7 @@ export default function Cta3() {
       <div className='container'>
         <div className='cta-content'>
           <div className='cta-text'>
-            <h3>Solicitá el catálogo completo de departamentos</h3>
+            <h3>Tu inversión inmobiliaria, con mayor rentabilidad</h3>
           </div>
           <BtnScroll textBtn='Consultá Ahora' classBtn='btn-cta' />
         </div>

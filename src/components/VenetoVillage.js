@@ -59,7 +59,7 @@ export default function VenetoVillage() {
                 <FiDollarSign className='card-image' />
                 <div className='card-body'>
                   <div className='card-text'>desarrollo</div>
-                  <div className='card-title'>en Pozo</div>
+                  <div className='card-title'>premium</div>
                 </div>
               </div>
             </div>
@@ -67,8 +67,8 @@ export default function VenetoVillage() {
               <div className='card'>
                 <FiClock className='card-image' />
                 <div className='card-body'>
-                  <div className='card-text'>duración</div>
-                  <div className='card-title'>36 meses</div>
+                  <div className='card-text'>entrega</div>
+                  <div className='card-title'>inmediata</div>
                 </div>
               </div>
             </div>
@@ -76,8 +76,8 @@ export default function VenetoVillage() {
               <div className='card'>
                 <FiStar className='card-image' />
                 <div className='card-body'>
-                  <div className='card-text'>inversión</div>
-                  <div className='card-title'>estrella</div>
+                  <div className='card-text'>enprendimiento</div>
+                  <div className='card-title'>único</div>
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function VenetoVillage() {
           <ProductGallery gallery={data.gallery} title='veneto-village' />
         )}
 
-        <div className='products-value'>propuesta de valor o comercial</div>
+        {/* <div className='products-value'>propuesta de valor o comercial</div> */}
       </div>
     </section>
   );
