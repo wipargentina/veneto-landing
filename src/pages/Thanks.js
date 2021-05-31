@@ -29,7 +29,7 @@ export default function Home() {
                 <div className='col-5'>
                   <a
                     id='brochure-fontana'
-                    href='/'
+                    href='https://drive.google.com/file/d/15dxGU75Xn5qvE1ZhbHffKteLfD-EHKJt/view'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='card'
