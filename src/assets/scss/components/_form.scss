@@ -1,5 +1,9 @@
 .form {
   padding: 100px;
   color: white;
-  background-color: $secondary;
+  background-color: $primary;
+  .form-group {
+    text-align: left;
+    margin-bottom: 16px;
+  }
 }

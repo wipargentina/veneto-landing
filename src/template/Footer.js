@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className='footer'>
       <a
-        href='https://wipargentina.com/?utm_source=landing&utm_medium=link&utm_campaign=landing-customer'
+        href='https://wipargentina.com/?utm_source=landing&utm_medium=link&utm_campaign=landing-veneto'
         target='_blank'
         rel='noopener noreferrer'
       >

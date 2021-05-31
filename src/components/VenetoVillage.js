@@ -8,7 +8,6 @@ import ProductGallery from './ProductGallery';
 import ProductsAmenities from './VenetoVIII/ProductsAmenties';
 
 import data from '../api/veneto-village.json';
-console.log(data);
 
 export default function VenetoVillage() {
   return (

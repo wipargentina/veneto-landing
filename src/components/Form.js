@@ -10,8 +10,8 @@ class Form extends Component {
       lname: '',
       email: '',
       phone: '',
-      // location: '',
-      // state: '',
+      location: '',
+      state: '',
       tags: '',
       isSending: false,
       isError: false
@@ -34,6 +34,13 @@ class Form extends Component {
     });
 
     console.log(this.state);
+
+    setTimeout(() => {
+      this.setState({
+        isSending: false
+      });
+      window.location.assign(process.env.PUBLIC_URL + '/gracias');
+    }, 3000);
 
     // axios
     //   .post(
@@ -91,7 +98,6 @@ class Form extends Component {
                         name='fname'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
-                        required
                       />
                     </div>
                   </div>
@@ -103,7 +109,6 @@ class Form extends Component {
                         name='lname'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
-                        required
                       />
                     </div>
                   </div>
@@ -117,7 +122,6 @@ class Form extends Component {
                         name='email'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
-                        required
                       />
                     </div>
                   </div>
@@ -131,18 +135,44 @@ class Form extends Component {
                         name='phone'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
-                        required
                       />
                     </div>
                   </div>
                 </div>
-                <input type='hidden' name='tags' value='monitoreo' />
-                <hr />
+                <div className='row mb-3'>
+                  <div className='col-md-6'>
+                    <div className='form-group'>
+                      <label htmlFor=''>
+                        Provincia <span>(Opcional)</span>
+                      </label>
+                      <input
+                        type='text'
+                        name='state'
+                        className='form-control form-control-lg'
+                        onChange={this.handleChange}
+                      />
+                    </div>
+                  </div>
+                  <div className='col-md-6'>
+                    <div className='form-group'>
+                      <label htmlFor=''>
+                        Localidad <span>(Opcional)</span>
+                      </label>
+                      <input
+                        type='text'
+                        name='location'
+                        className='form-control form-control-lg'
+                        onChange={this.handleChange}
+                      />
+                    </div>
+                  </div>
+                </div>
+
                 <div className='row text-center'>
                   <div className='col-md-12'>
                     <button
                       id='btn_send_form'
-                      className='btn btn-lg btn_2 text-uppercase'
+                      className='btn btn-lg btn-cta text-uppercase'
                       type='submit'
                       disabled={isSending}
                     >
