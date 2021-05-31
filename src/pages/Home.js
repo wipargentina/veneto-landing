@@ -5,7 +5,7 @@ import Cta2 from '../components/Cta2';
 import Cta3 from '../components/Cta3';
 import Form from '../components/Form';
 import Hero from '../components/Hero';
-import Testimonials from '../components/Testimonials';
+// import Testimonials from '../components/Testimonials';
 import Validation from '../components/Validation';
 import VenetoOthers from '../components/VenetoOthers';
 import VenetoVIII from '../components/VenetoVIII';
@@ -23,7 +23,7 @@ export default function Home() {
       <VenetoOthers />
       <Cta3 />
       <Validation />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Form />
     </>
   );
