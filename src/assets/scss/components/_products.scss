@@ -62,7 +62,7 @@ $product-hero-heigth-mobile: 385px;
   .products-grid {
     margin-bottom: 80px;
     display: grid;
-    grid-template: repeat(2, 200px) / auto 200px;
+    grid-template: repeat(2, 240px) / auto 300px;
     gap: 16px;
     grid-template-areas:
       'item-1 item-2'

@@ -1,8 +1,8 @@
 import React from 'react';
 import HeroImage from '../assets/static/hero-bg.webp';
-import AmenitiesImage1 from '../assets/static/veneto-village-amenities-1.jpg';
-import AmenitiesImage2 from '../assets/static/veneto-village-amenities-2.jpg';
-import AmenitiesImage3 from '../assets/static/veneto-village-amenities-3.jpg';
+import AmenitiesImage1 from '../assets/static/veneto-village-amenities-1.webp';
+import AmenitiesImage2 from '../assets/static/veneto-village-amenities-2.webp';
+import AmenitiesImage3 from '../assets/static/veneto-village-amenities-3.webp';
 import { FiDollarSign, FiClock, FiStar } from 'react-icons/fi';
 import ProductGallery from './ProductGallery';
 import ProductsAmenities from './VenetoVIII/ProductsAmenties';

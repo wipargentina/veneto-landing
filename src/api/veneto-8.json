@@ -48,23 +48,15 @@
   "gallery": [
     {
       "id": 1,
-      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-1_aqi2tq.jpg"
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622586291/Constructora%20del%20Valle/Veneto/veneto-8-gallery-1_zchcgs.webp"
     },
     {
       "id": 2,
-      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-2_rokx8l.jpg"
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622586291/Constructora%20del%20Valle/Veneto/veneto-8-gallery-2_zcnjlu.webp"
     },
     {
       "id": 3,
-      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-3_xrjmjh.jpg"
-    },
-    {
-      "id": 4,
-      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-4_dvlozu.jpg"
-    },
-    {
-      "id": 5,
-      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1620832976/Veneto/veneto-8-gallery-5_nuaisz.jpg"
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622586291/Constructora%20del%20Valle/Veneto/veneto-8-gallery-3_b9m5ym.webp"
     }
   ]
 }
