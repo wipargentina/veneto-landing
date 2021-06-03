@@ -2,7 +2,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import ImageVeneto8 from '../assets/static/hero-bg-2.webp';
-import ImageVenetoVillage from '../assets/static/hero-bg.webp';
 
 export default function Home() {
   return (
@@ -22,8 +21,8 @@ export default function Home() {
                 información necesaria
               </p>
               <h5 className='mb-4'>
-                Te invitamos a que descarges el brochure de nuestros
-                emprendimientos
+                Te invitamos a que descarges el brochure de nuestro
+                emprendimiento
               </h5>
               <div className='row justify-content-center mb-5'>
                 <div className='col-5'>
@@ -40,29 +39,10 @@ export default function Home() {
                     </div>
                   </a>
                 </div>
-                <div className='col-5'>
-                  <a
-                    id='brochure-village'
-                    href='/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='card'
-                  >
-                    <img
-                      src={ImageVenetoVillage}
-                      alt=''
-                      className='card-image'
-                    />
-                    <div className='card-body'>
-                      <div className='card-title'>Brochure Veneto Village</div>
-                    </div>
-                  </a>
-                </div>
               </div>
               <div className='cta'>
                 <h5 className='mb-3'>
-                  Visita nuestra web y conoce el resto de nuestros
-                  emprendimientos
+                  Visita nuestra web y conoce el resto de nuestros proyectos
                 </h5>
                 <a
                   id='link-web'
@@ -74,9 +54,7 @@ export default function Home() {
                   https://constructoradelvalle.com/
                 </a>
               </div>
-              <h6 className='mb-3'>
-                Te invitamos a que nos sigas en nuestras redes
-              </h6>
+              <h6 className='mb-3'>Seguinos en nuestras redes</h6>
               <a
                 id='btn-facebook'
                 href='https://www.facebook.com/ConstructoradelValleOficial'

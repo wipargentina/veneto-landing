@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// import axios from 'axios';
+import axios from 'axios';
 
 class Form extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class Form extends Component {
       phone: '',
       location: '',
       state: '',
-      tags: '',
+      tags: 'inversor',
       isSending: false,
       isError: false
     };
@@ -33,45 +33,47 @@ class Form extends Component {
       isSending: true
     });
 
-    console.log(this.state);
+    //console.log(this.state);
 
-    setTimeout(() => {
-      this.setState({
-        isSending: false
-      });
-      window.location.assign(process.env.PUBLIC_URL + '/gracias');
-    }, 3000);
-
-    // axios
-    //   .post(
-    //     'https://hook.integromat.com/fzoimp3c2az3q9u97e83coprmuggrfk7',
-    //     this.state
-    //   )
-    //   .then((response) => {
-    //     console.log(response);
-    //     this.setState({
-    //       isSending: false,
-    //       fname: '',
-    //       lname: '',
-    //       email: '',
-    //       phone: '',
-    //       tags: ''
-    //     });
-    //     if (response.status === 200) {
-    //       this.setState({
-    //         isError: false
-    //       });
-    //       window.location.assign(process.env.PUBLIC_URL + '/gracias');
-    //     }
-    //     if (response.status === 400) {
-    //     }
-    //   })
-    //   .catch((error) => {
-    //     console.log(error);
-    //     this.setState({
-    //       isError: true
-    //     });
+    // setTimeout(() => {
+    //   this.setState({
+    //     isSending: false
     //   });
+    //   window.location.assign(process.env.PUBLIC_URL + '/gracias');
+    // }, 3000);
+
+    axios
+      .post(
+        'https://hook.integromat.com/cun8vog7unxeuek1i22woc15enlcicju',
+        this.state
+      )
+      .then((response) => {
+        console.log(response);
+        this.setState({
+          isSending: false,
+          fname: '',
+          lname: '',
+          email: '',
+          phone: '',
+          state: '',
+          location: '',
+          tags: ''
+        });
+        if (response.status === 200) {
+          this.setState({
+            isError: false
+          });
+          window.location.assign(process.env.PUBLIC_URL + '/gracias');
+        }
+        if (response.status === 400) {
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+        this.setState({
+          isError: true
+        });
+      });
   }
 
   render() {
@@ -98,6 +100,7 @@ class Form extends Component {
                         name='fname'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
+                        required
                       />
                     </div>
                   </div>
@@ -109,6 +112,7 @@ class Form extends Component {
                         name='lname'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
+                        required
                       />
                     </div>
                   </div>
@@ -122,19 +126,19 @@ class Form extends Component {
                         name='email'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
+                        required
                       />
                     </div>
                   </div>
                   <div className='col-md-6'>
                     <div className='form-group'>
-                      <label htmlFor=''>
-                        Teléfono <span>(Opcional)</span>
-                      </label>
+                      <label htmlFor=''>Teléfono</label>
                       <input
                         type='text'
                         name='phone'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
+                        required
                       />
                     </div>
                   </div>
@@ -142,27 +146,25 @@ class Form extends Component {
                 <div className='row mb-3'>
                   <div className='col-md-6'>
                     <div className='form-group'>
-                      <label htmlFor=''>
-                        Provincia <span>(Opcional)</span>
-                      </label>
+                      <label htmlFor=''>Provincia</label>
                       <input
                         type='text'
                         name='state'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
+                        required
                       />
                     </div>
                   </div>
                   <div className='col-md-6'>
                     <div className='form-group'>
-                      <label htmlFor=''>
-                        Localidad <span>(Opcional)</span>
-                      </label>
+                      <label htmlFor=''>Localidad</label>
                       <input
                         type='text'
                         name='location'
                         className='form-control form-control-lg'
                         onChange={this.handleChange}
+                        required
                       />
                     </div>
                   </div>

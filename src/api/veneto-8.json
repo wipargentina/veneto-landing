@@ -48,15 +48,27 @@
   "gallery": [
     {
       "id": 1,
-      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622586291/Constructora%20del%20Valle/Veneto/veneto-8-gallery-1_zchcgs.webp"
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622678236/Constructora%20del%20Valle/Veneto/veneto-8-gallery-1_hbqpys.webp"
     },
     {
       "id": 2,
-      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622586291/Constructora%20del%20Valle/Veneto/veneto-8-gallery-2_zcnjlu.webp"
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622678236/Constructora%20del%20Valle/Veneto/veneto-8-gallery-2_glbxot.webp"
     },
     {
       "id": 3,
-      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622586291/Constructora%20del%20Valle/Veneto/veneto-8-gallery-3_b9m5ym.webp"
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622678236/Constructora%20del%20Valle/Veneto/veneto-8-gallery-3_apmow4.webp"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622678236/Constructora%20del%20Valle/Veneto/veneto-8-gallery-4_s5cwqt.webp"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622678236/Constructora%20del%20Valle/Veneto/veneto-8-gallery-5_rmbj1q.webp"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622678236/Constructora%20del%20Valle/Veneto/veneto-8-gallery-6_dypwyk.webp"
     }
   ]
 }

@@ -8,7 +8,7 @@ export default function VenetoOthers() {
 
         <div className='products-others'>
           <div className='row justify-content-center'>
-            <div className='col-md-3'>
+            <div className='col-md-6 col-lg-4 col-xl-3 mb-4 mb-md-0'>
               <div className='card'>
                 <img
                   src='https://constructoradelvalle.com/ventures/veneto-5.jpg'
@@ -26,7 +26,7 @@ export default function VenetoOthers() {
                 </div>
               </div>
             </div>
-            <div className='col-md-3'>
+            <div className='col-md-6 col-lg-4 col-xl-3'>
               <div className='card'>
                 <img
                   src='https://constructoradelvalle.com/ventures/veneto-6.jpg'
