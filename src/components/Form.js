@@ -18,6 +18,7 @@ class Form extends Component {
     };
 
     this.handleChange = this.handleChange.bind(this);
+    this.handleOptionChange = this.handleOptionChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
@@ -27,13 +28,19 @@ class Form extends Component {
     });
   }
 
+  handleOptionChange(e) {
+    this.setState({
+      tags: e.target.value
+    });
+  }
+
   handleSubmit(e) {
     e.preventDefault();
-    this.setState({
-      isSending: true
-    });
+    // this.setState({
+    //   isSending: true
+    // });
 
-    //console.log(this.state);
+    // console.log(this.state);
 
     // setTimeout(() => {
     //   this.setState({
@@ -82,14 +89,14 @@ class Form extends Component {
       <section id='form' className='form'>
         <div className='container'>
           <div className='row justify-content-center'>
-            <div className='col-12 col-md-10 col-lg-80 text-center mb-5'>
+            <div className='col-12 col-md-10 text-center mb-5'>
               <h2>Completá el formulario</h2>
               <h4 className='mt-3'>
                 Nos pondremos en contacto para brindarte nuestro asesoramiento
                 personalizado
               </h4>
             </div>
-            <div className='col-md-8'>
+            <div className=' col-lg-9 col-xl-8'>
               <form id='form_send_lead' onSubmit={this.handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
@@ -170,8 +177,45 @@ class Form extends Component {
                   </div>
                 </div>
 
-                <div className='row text-center'>
-                  <div className='col-md-12'>
+                <div className='row'>
+                  <div className='col-md-6'>
+                    <div className='tags'>
+                      <label className='mb-1'>
+                        ¿Qué finalidad quieres darle a tu Veneto?
+                      </label>
+                      <div className='tags-options'>
+                        <div className='form-check'>
+                          <input
+                            className='form-check-input'
+                            type='radio'
+                            name='tags'
+                            id='tags-1'
+                            value='inversor'
+                            onChange={this.handleOptionChange}
+                            checked={this.state.tags === 'inversor'}
+                          />
+                          <label className='form-check-label' htmlFor='tags-1'>
+                            Quiero <span>Invertir</span>
+                          </label>
+                        </div>
+                        <div className='form-check'>
+                          <input
+                            className='form-check-input'
+                            type='radio'
+                            name='tags'
+                            id='tags-2'
+                            value='vivienda'
+                            onChange={this.handleOptionChange}
+                            checked={this.state.tags === 'vivienda'}
+                          />
+                          <label className='form-check-label' htmlFor='tags-2'>
+                            Quiero <span>Vivir</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='col-md-6'>
                     <button
                       id='btn_send_form'
                       className='btn btn-lg btn-cta text-uppercase'

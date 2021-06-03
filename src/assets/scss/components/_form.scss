@@ -1,9 +1,44 @@
 .form {
-  padding: 100px;
+  padding: 100px 0;
   color: white;
   background-color: $primary;
+  text-align: left;
   .form-group {
     text-align: left;
     margin-bottom: 16px;
+  }
+  .tags {
+    text-align: left;
+    .tags-options {
+      display: flex;
+      .form-check {
+        margin-right: 16px;
+      }
+      .form-check-label {
+        letter-spacing: -0.02rem;
+        span {
+          font-weight: 700;
+        }
+      }
+      .form-check-input:checked {
+        background-color: $cta;
+        border-color: $cta;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    .tags {
+      text-align: left;
+      .tags-options {
+        display: flex;
+        margin-bottom: 20px;
+        .form-check {
+          margin-right: 16px;
+        }
+      }
+    }
   }
 }
