@@ -4,11 +4,11 @@ import Thanks from '../pages/Thanks';
 import NotFound from '../pages/NotFound';
 import Layout from '../template/Layout';
 
-// import TagManager from 'react-gtm-module';
-// const tagManagerArgs = {
-//   gtmId: 'GTM-N4XJN24'
-// };
-// TagManager.initialize(tagManagerArgs);
+import TagManager from 'react-gtm-module';
+const tagManagerArgs = {
+  gtmId: 'GTM-N468JX6'
+};
+TagManager.initialize(tagManagerArgs);
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/landing' component={Home} />
           <Route exact path='/gracias' component={Thanks} />
           <Route exact path='*' component={NotFound} />
         </Switch>
