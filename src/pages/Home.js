@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Benefits from '../components/Benefits';
 import Cta1 from '../components/Cta1';
 import Cta2 from '../components/Cta2';
@@ -14,6 +15,11 @@ import VenetoVillage from '../components/VenetoVillage';
 export default function Home() {
   return (
     <>
+      <Helmet>
+        <title>
+          Edificios Veneto: Tu departamento en las sierras de Córdoba
+        </title>
+      </Helmet>
       <Hero />
       <Benefits />
       <VenetoVIII />
