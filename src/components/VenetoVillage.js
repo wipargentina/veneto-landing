@@ -88,10 +88,7 @@ export default function VenetoVillage() {
         <div className='products-amenities'>
           <div className='row justify-content-center'>
             <div className='col-md-9'>
-              <h3>
-                Arte, Tecnología, Diseño y Calidad confluyen para generar un
-                producto único.
-              </h3>
+              <h3>Un Resort del Caribe en el Corazón de Córdoba</h3>
               {data.amenities && (
                 <ProductsAmenities amenities={data.amenities} />
               )}

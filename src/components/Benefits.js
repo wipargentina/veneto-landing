@@ -21,8 +21,8 @@ export default function Benefits() {
               <div className='card-body'>
                 <h3 className='card-title'>Entrega Mínima</h3>
                 <div className='card-text'>
-                  Planes accesibles para que puedas empezar a invertir{' '}
-                  <span>ahora!</span>
+                  Planes accesibles y en pesos para que puedas empezar a
+                  invertir <span>ahora!</span>
                 </div>
               </div>
             </div>
@@ -33,8 +33,7 @@ export default function Benefits() {
               <div className='card-body'>
                 <h3 className='card-title'>Plan Cosecha</h3>
                 <div className='card-text'>
-                  Entrega del <span>10%</span> y saldo en <span>10 pagos</span>{' '}
-                  semestrales
+                  Entrega inicial y 6 pagos semestrales
                 </div>
               </div>
             </div>

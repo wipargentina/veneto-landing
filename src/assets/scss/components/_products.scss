@@ -169,9 +169,14 @@ $product-hero-heigth-mobile: 385px;
       }
       .card-body {
         text-align: center;
-        height: 180px;
+        height: 210px;
         .card-title {
           font-weight: 700;
+          margin-bottom: 4px;
+        }
+        h5 {
+          font-size: 1em;
+          text-transform: uppercase;
           margin-bottom: 12px;
         }
         .card-subtitle {

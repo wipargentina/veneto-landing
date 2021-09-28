@@ -17,6 +17,7 @@ export default function VenetoOthers() {
                 />
                 <div className='card-body'>
                   <h3 className='card-title'>Veneto V</h3>
+                  <h5>Entrega en 14 meses</h5>
                   <h6 className='card-subtitle'>
                     En el Centro Comercial de Carlos Paz
                   </h6>
@@ -35,6 +36,7 @@ export default function VenetoOthers() {
                 />
                 <div className='card-body'>
                   <h3 className='card-title'>Veneto VI</h3>
+                  <h5>Entrega en 18 meses</h5>
                   <h6 className='card-subtitle'>
                     Vistas a las montañas o al centro de la ciudad
                   </h6>

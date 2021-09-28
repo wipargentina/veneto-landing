@@ -10,7 +10,7 @@ export default function Cta2() {
             <h4>
               <span>Veneto Village</span> inversión premium - entrega inmediata
             </h4>
-            <h3>¡Últimas unidades! de 1 y 2 dormitorios. 92% vendido</h3>
+            <h3>¡Últimas unidades!</h3>
           </div>
           <BtnScroll textBtn='Consultá Ahora' classBtn='btn-cta' />
         </div>
