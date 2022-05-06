@@ -1,0 +1,78 @@
+{
+  "amenities": [
+    {
+      "id": 1,
+      "title": "Elegante Hall de Acceso."
+    },
+    {
+      "id": 2,
+      "title": "Ascensores de alta velocidad."
+    },
+    {
+      "id": 3,
+      "title": "Piscina Panorámica."
+    },
+    {
+      "id": 4,
+      "title": "Gimnasio y Área para meditación."
+    },
+    {
+      "id": 5,
+      "title": "Terraza Verde con Livings Materos."
+    },
+    {
+      "id": 6,
+      "title": "Salón de usos múltiples totalmente equipado."
+    },
+    {
+      "id": 7,
+      "title": "Asadores en terraza y balcones propios."
+    },
+    {
+      "id": 8,
+      "title": "Paseo comercial con 14 locales, patios verdes y un café premium."
+    },
+    {
+      "id": 9,
+      "title": "Hall de distribución central vanguardista."
+    },
+    {
+      "id": 10,
+      "title": "Zona Wifi y Espacio Coworking."
+    },
+    {
+      "id": 11,
+      "title": "Sala de Juegos + Kid Area."
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1651872178/Veneto/veneto-10-gallery-1_yjcgo0.jpg"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1651872178/Veneto/veneto-10-gallery-2_umlcna.jpg"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1622678236/Constructora%20del%20Valle/Veneto/veneto-8-gallery-3_apmow4.webp"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1651872178/Veneto/veneto-10-gallery-4_d5cfzc.jpg"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1651872179/Veneto/veneto-10-gallery-5_q4bz0w.jpg"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1651872178/Veneto/veneto-10-gallery-6_fowgm8.jpg"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://res.cloudinary.com/germansayago/image/upload/v1651872180/Veneto/veneto-10-gallery-7_z9q4ov.jpg"
+    }
+  ]
+}
