@@ -2,15 +2,14 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Benefits from '../components/Benefits';
 import Cta1 from '../components/Cta1';
-import Cta2 from '../components/Cta2';
 import Cta3 from '../components/Cta3';
+import CtaVenetoX from '../components/CtaVenetoX';
 import Form from '../components/Form';
 import Hero from '../components/Hero';
-// import Testimonials from '../components/Testimonials';
 import Validation from '../components/Validation';
 import VenetoOthers from '../components/VenetoOthers';
 import VenetoVIII from '../components/VenetoVIII';
-import VenetoVillage from '../components/VenetoVillage';
+import VenetoX from '../components/VenetoX';
 
 export default function Home() {
   return (
@@ -22,10 +21,10 @@ export default function Home() {
       </Helmet>
       <Hero />
       <Benefits />
+      <VenetoX />
+      <CtaVenetoX />
       <VenetoVIII />
       <Cta1 />
-      <VenetoVillage />
-      <Cta2 />
       <VenetoOthers />
       <Cta3 />
       <Validation />
