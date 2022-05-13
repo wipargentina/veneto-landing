@@ -1,6 +1,6 @@
 import React from 'react';
 import BtnScroll from './BtnScroll';
-import HeroImage from '../assets/static/hero-bg-2.webp';
+import HeroImage from '../assets/static/hero-veneto-x.jpg';
 
 export default function Hero() {
   return (
