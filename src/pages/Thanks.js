@@ -1,7 +1,7 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import { FaFacebookF, FaInstagram } from 'react-icons/fa';
-import ImageVeneto8 from '../assets/static/hero-bg-2.webp';
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import { FaFacebookF, FaInstagram } from 'react-icons/fa'
+import ImageVeneto8 from '../assets/static/hero-bg-2.webp'
 
 export default function Home() {
   return (
@@ -21,19 +21,59 @@ export default function Home() {
                 información necesaria
               </p>
               <h5 className='mb-4'>
-                Te invitamos a que descarges el brochure de nuestro
-                emprendimiento
+                Te invitamos a que descarges el brochure de nuestros
+                emprendimientos
               </h5>
               <div className='row justify-content-center mb-5'>
-                <div className='col-5'>
+                <div className='col-4'>
                   <a
                     id='brochure-fontana'
-                    href='https://drive.google.com/file/d/15dxGU75Xn5qvE1ZhbHffKteLfD-EHKJt/view'
+                    href='https://drive.google.com/file/d/1xY7UHR_PmaNEXSe3ei9whb7RrNW1_vER/view?usp=sharing'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='card'
                   >
-                    <img src={ImageVeneto8} alt='' className='card-image' />
+                    <img
+                      src='https://constructoradelvalle.com/veneto-10-ponte-di-veneto/hero.jpg'
+                      alt=''
+                      className='card-image'
+                    />
+                    <div className='card-body'>
+                      <div className='card-title'>Brochure Veneto X</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='col-4'>
+                  <a
+                    id='brochure-fontana'
+                    href='https://drive.google.com/file/d/18-bHBjMg45MV6gmA82MFCRsOwKfIUQG4/view?usp=sharing'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='card'
+                  >
+                    <img
+                      src='https://constructoradelvalle.com/veneto-9/hero.jpg'
+                      alt=''
+                      className='card-image'
+                    />
+                    <div className='card-body'>
+                      <div className='card-title'>Brochure Veneto IX</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='col-4'>
+                  <a
+                    id='brochure-fontana'
+                    href='https://drive.google.com/file/d/1Vyo0v8z4dqPQKlCCGwQC7fPUJkFxeCZy/view?usp=sharing'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='card'
+                  >
+                    <img
+                      src='https://constructoradelvalle.com/ventures/veneto-8.jpg'
+                      alt=''
+                      className='card-image'
+                    />
                     <div className='card-body'>
                       <div className='card-title'>Brochure Veneto VIII</div>
                     </div>
@@ -80,5 +120,5 @@ export default function Home() {
         </div>
       </section>
     </>
-  );
+  )
 }

@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import axios from 'axios';
+import axios from 'axios'
 
 class Form extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       fname: '',
       lname: '',
@@ -13,41 +13,32 @@ class Form extends Component {
       location: '',
       state: '',
       tags: 'inversor',
+      investment: 'veneto-10',
       isSending: false,
       isError: false
-    };
+    }
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleOptionChange = this.handleOptionChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleChange = this.handleChange.bind(this)
+    this.handleOptionChange = this.handleOptionChange.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   handleChange(e) {
     this.setState({
       [e.target.name]: e.target.value
-    });
+    })
   }
 
   handleOptionChange(e) {
     this.setState({
       tags: e.target.value
-    });
+    })
   }
 
   handleSubmit(e) {
-    e.preventDefault();
-    // this.setState({
-    //   isSending: true
-    // });
+    e.preventDefault()
 
-    // console.log(this.state);
-
-    // setTimeout(() => {
-    //   this.setState({
-    //     isSending: false
-    //   });
-    //   window.location.assign(process.env.PUBLIC_URL + '/gracias');
-    // }, 3000);
+    //console.log(this.state)
 
     axios
       .post(
@@ -55,7 +46,7 @@ class Form extends Component {
         this.state
       )
       .then((response) => {
-        console.log(response);
+        console.log(response)
         this.setState({
           isSending: false,
           fname: '',
@@ -65,26 +56,34 @@ class Form extends Component {
           state: '',
           location: '',
           tags: ''
-        });
+        })
         if (response.status === 200) {
           this.setState({
             isError: false
-          });
-          window.location.assign(process.env.PUBLIC_URL + '/gracias');
+          })
+
+          window.dataLayer = window.dataLayer || []
+          window.dataLayer.push({
+            event: 'custom.gtm.submittedForm',
+            category: 'goals',
+            label: 'contact'
+          })
+
+          window.location.assign(process.env.PUBLIC_URL + '/gracias')
         }
         if (response.status === 400) {
         }
       })
       .catch((error) => {
-        console.log(error);
+        console.log(error)
         this.setState({
           isError: true
-        });
-      });
+        })
+      })
   }
 
   render() {
-    const isSending = this.state.isSending;
+    const isSending = this.state.isSending
     return (
       <section id='form' className='form'>
         <div className='container'>
@@ -96,8 +95,10 @@ class Form extends Component {
                 personalizado
               </h4>
             </div>
+
             <div className=' col-lg-9 col-xl-8'>
               <form id='form_send_lead' onSubmit={this.handleSubmit}>
+                <div className='row'></div>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
@@ -151,7 +152,7 @@ class Form extends Component {
                   </div>
                 </div>
                 <div className='row mb-3'>
-                  <div className='col-md-6'>
+                  <div className='col-md-4'>
                     <div className='form-group'>
                       <label htmlFor=''>Provincia</label>
                       <input
@@ -163,7 +164,7 @@ class Form extends Component {
                       />
                     </div>
                   </div>
-                  <div className='col-md-6'>
+                  <div className='col-md-4'>
                     <div className='form-group'>
                       <label htmlFor=''>Localidad</label>
                       <input
@@ -173,6 +174,21 @@ class Form extends Component {
                         onChange={this.handleChange}
                         required
                       />
+                    </div>
+                  </div>
+                  <div className='col-md-4'>
+                    <div className='form-group'>
+                      <label htmlFor=''>Interés</label>
+                      <select
+                        name='investment'
+                        className='form-control form-control-lg'
+                        onChange={this.handleChange}
+                        required
+                      >
+                        <option value='veneto-10'>Veneto X</option>
+                        <option value='veneto-9'>Veneto IX</option>
+                        <option value='veneto-8'>Veneto VIII</option>
+                      </select>
                     </div>
                   </div>
                 </div>
@@ -215,7 +231,7 @@ class Form extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className='col-md-6'>
+                  <div className='col-md-6 text-sm-end'>
                     <button
                       id='btn_send_form'
                       className='btn btn-lg btn-cta text-uppercase'
@@ -231,8 +247,8 @@ class Form extends Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
-export default Form;
+export default Form
