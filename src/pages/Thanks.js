@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
-import ImageVeneto8 from '../assets/static/hero-bg-2.webp'
 
 export default function Home() {
   return (

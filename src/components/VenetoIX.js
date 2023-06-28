@@ -1,7 +1,4 @@
 import React from 'react'
-import AmenitiesImage1 from '../assets/static/veneto-8-amenities-1.webp'
-import AmenitiesImage2 from '../assets/static/veneto-8-amenities-2.webp'
-import AmenitiesImage3 from '../assets/static/veneto-8-amenities-3.webp'
 import { FiDollarSign, FiClock, FiStar } from 'react-icons/fi'
 import ProductsAmenities from './VenetoVIII/ProductsAmenties'
 import ProductGallery from './ProductGallery'
