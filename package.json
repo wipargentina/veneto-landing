@@ -43,8 +43,8 @@
     ]
   },
   "devDependencies": {
-    "bootstrap": "^5.0.0",
-    "sass": "^1.63.6"
+    "bootstrap": "5.0.0",
+    "sass": "1.5"
   },
   "packageManager": "yarn@3.6.0"
 }
