@@ -1,0 +1,70 @@
+{
+  "amenities": [
+    {
+      "id": 1,
+      "title": "Elegante Hall de Acceso."
+    },
+    {
+      "id": 2,
+      "title": "Ascensores de alta velocidad."
+    },
+    {
+      "id": 3,
+      "title": "Piscina Panorámica."
+    },
+    {
+      "id": 4,
+      "title": "Gimnasio y Área para Meditación."
+    },
+    {
+      "id": 5,
+      "title": "Terraza Verde con Livings Materos."
+    },
+    {
+      "id": 6,
+      "title": "Salón de usos múltiples totalmente equipado."
+    },
+    {
+      "id": 7,
+      "title": "Sector de asadores en terraza."
+    },
+    {
+      "id": 8,
+      "title": "Balcones con asadores."
+    },
+    {
+      "id": 9,
+      "title": "Restaurante en planta baja."
+    },
+    {
+      "id": 10,
+      "title": "Zona Wifi y Espacio Coworking."
+    },
+    {
+      "id": 11,
+      "title": "Sala de Juegos + Kid Area."
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1687888854/Constructora%20del%20Valle/Veneto/veneto-9-gallery-1_z9qfax.jpg"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1687888855/Constructora%20del%20Valle/Veneto/veneto-9-gallery-2_qudnor.jpg"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1687888853/Constructora%20del%20Valle/Veneto/veneto-9-gallery-3_qdkp3z.jpg"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1687888854/Constructora%20del%20Valle/Veneto/veneto-9-gallery-4_eyjp73.jpg"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://res.cloudinary.com/dta3ha9iu/image/upload/v1687888854/Constructora%20del%20Valle/Veneto/veneto-9-gallery-5_fdu5df.jpg"
+    }
+  ]
+}

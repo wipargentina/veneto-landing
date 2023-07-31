@@ -1,5 +1,5 @@
-import React from 'react';
-import BtnScroll from './BtnScroll';
+import React from 'react'
+import BtnScroll from './BtnScroll'
 
 export default function Cta2() {
   return (
@@ -8,13 +8,13 @@ export default function Cta2() {
         <div className='cta-content'>
           <div className='cta-text'>
             <h4>
-              <span>Veneto Village</span> inversión premium - entrega inmediata
+              <span>Veneto IX</span> Cerca y conectado con todo
             </h4>
-            <h3>¡Últimas unidades!</h3>
+            <h3>¡Unica Oportunidad para invertir!</h3>
           </div>
           <BtnScroll textBtn='Consultá Ahora' classBtn='btn-cta' />
         </div>
       </div>
     </section>
-  );
+  )
 }

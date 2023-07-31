@@ -1,14 +1,14 @@
-import React from 'react';
-import Logo from '../assets/static/logo-ponte-di-veneto.png';
-import HeroImage from '../assets/static/hero-veneto-x.jpg';
-import AmenitiesImage1 from '../assets/static/veneto-10-amenities-1.jpg';
-import AmenitiesImage2 from '../assets/static/veneto-10-amenities-2.jpg';
-import AmenitiesImage3 from '../assets/static/veneto-10-amenities-3.jpg';
-import { FiDollarSign, FiClock, FiStar } from 'react-icons/fi';
-import ProductsAmenities from './VenetoVIII/ProductsAmenties';
-import ProductGallery from './ProductGallery';
+import React from 'react'
+import Logo from '../assets/static/logo-ponte-di-veneto.png'
+import HeroImage from '../assets/static/hero-veneto-x.jpg'
+import AmenitiesImage1 from '../assets/static/veneto-10-amenities-1.jpg'
+import AmenitiesImage2 from '../assets/static/veneto-10-amenities-2.jpg'
+import AmenitiesImage3 from '../assets/static/veneto-10-amenities-3.jpg'
+import { FiDollarSign, FiClock, FiStar } from 'react-icons/fi'
+import ProductsAmenities from './VenetoVIII/ProductsAmenties'
+import ProductGallery from './ProductGallery'
 
-import data from '../api/veneto-10.json';
+import data from '../api/veneto-10.json'
 
 export default function VenetoX() {
   return (
@@ -64,7 +64,7 @@ export default function VenetoX() {
                   <FiDollarSign className='card-image' />
                   <div className='card-body'>
                     <div className='card-text'>desarrollo</div>
-                    <div className='card-title'>en Pozo</div>
+                    <div className='card-title'>en Obra</div>
                   </div>
                 </div>
               </div>
@@ -109,5 +109,5 @@ export default function VenetoX() {
         {/* <div className='products-value'>propuesta de valor o comercial</div> */}
       </div>
     </section>
-  );
+  )
 }

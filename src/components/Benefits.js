@@ -1,5 +1,5 @@
-import React from 'react';
-import { FiPercent, FiSunrise, FiTrendingUp } from 'react-icons/fi';
+import React from 'react'
+import { FiPercent, FiSunrise, FiTrendingUp } from 'react-icons/fi'
 
 export default function Benefits() {
   return (
@@ -33,7 +33,7 @@ export default function Benefits() {
               <div className='card-body'>
                 <h3 className='card-title'>Plan Cosecha</h3>
                 <div className='card-text'>
-                  Entrega inicial y 6 pagos semestrales
+                  Entrega inicial y pagos semestrales
                 </div>
               </div>
             </div>
@@ -53,5 +53,5 @@ export default function Benefits() {
         </div>
       </div>
     </section>
-  );
+  )
 }
