@@ -1,14 +1,14 @@
-import React from 'react';
-import Logo from '../assets/static/logo-fontana-di-veneto.png';
-import HeroImage from '../assets/static/hero-bg-2.webp';
-import AmenitiesImage1 from '../assets/static/veneto-8-amenities-1.webp';
-import AmenitiesImage2 from '../assets/static/veneto-8-amenities-2.webp';
-import AmenitiesImage3 from '../assets/static/veneto-8-amenities-3.webp';
-import { FiDollarSign, FiClock, FiStar } from 'react-icons/fi';
-import ProductsAmenities from './VenetoVIII/ProductsAmenties';
-import ProductGallery from './ProductGallery';
+import React from 'react'
+import Logo from '../assets/static/logo-fontana-di-veneto.png'
+import HeroImage from '../assets/static/hero-bg-2.webp'
+import AmenitiesImage1 from '../assets/static/veneto-8-amenities-1.webp'
+import AmenitiesImage2 from '../assets/static/veneto-8-amenities-2.webp'
+import AmenitiesImage3 from '../assets/static/veneto-8-amenities-3.webp'
+import { FiDollarSign, FiClock, FiStar } from 'react-icons/fi'
+import ProductsAmenities from './VenetoVIII/ProductsAmenties'
+import ProductGallery from './ProductGallery'
 
-import data from '../api/veneto-8.json';
+import data from '../api/veneto-8.json'
 
 export default function VenetoVIII() {
   return (
@@ -61,7 +61,7 @@ export default function VenetoVIII() {
                 <FiDollarSign className='card-image' />
                 <div className='card-body'>
                   <div className='card-text'>desarrollo</div>
-                  <div className='card-title'>en Pozo</div>
+                  <div className='card-title'>en Obra</div>
                 </div>
               </div>
             </div>
@@ -69,8 +69,8 @@ export default function VenetoVIII() {
               <div className='card'>
                 <FiClock className='card-image' />
                 <div className='card-body'>
-                  <div className='card-text'>duración</div>
-                  <div className='card-title'>36 meses</div>
+                  <div className='card-text'>Entrega</div>
+                  <div className='card-title'>2024</div>
                 </div>
               </div>
             </div>
@@ -105,5 +105,5 @@ export default function VenetoVIII() {
         {/* <div className='products-value'>propuesta de valor o comercial</div> */}
       </div>
     </section>
-  );
+  )
 }
